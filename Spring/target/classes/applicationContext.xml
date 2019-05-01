@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--    Bean的创建权交个spring-->
@@ -23,8 +24,93 @@
 <!--    <bean id="bean3Factory" class="com.dollarkiller.ioc.demo2.Bean3Factory" ></bean>-->
 <!--    <bean id="bean3" factory-bean="bean3Factory" factory-method="createBean3"></bean>-->
     <!--Bean的作用范围-->
-    <bean id="person" class="com.dollarkiller.ioc.demo3.Person" scope="prototype"/>
+<!--    <bean id="person" class="com.dollarkiller.ioc.demo3.Person" scope="prototype"/>-->
 
     <!--Bean生命周期-->
-    <bean id="man" class="com.dollarkiller.ioc.demo3.Man" init-method="setup" destroy-method="teardown"/>
+<!--    <bean id="man" class="com.dollarkiller.ioc.demo3.Man" init-method="setup" destroy-method="teardown"/>-->
+<!--    <bean class="com.dollarkiller.ioc.demo3.MyBeanPostPricessor" />-->
+<!--    <bean id="userDao" class="com.dollarkiller.ioc.demo3.UserDaoImpl" />-->
+
+    <!--Bean构造方法的属性注入-->
+<!--    <bean id="user" class="com.dollarkiller.ioc.demo4.User">-->
+<!--        <constructor-arg name="age" value="12"/>-->
+<!--        <constructor-arg name="name" value="张珊"/>-->
+<!--    </bean>-->
+
+    <!-- set方法注入  在Spring配置文件中 通过<property>设置注入属性-->
+<!--    <bean id="person" class="com.dollarkiller.ioc.demo4.Person">-->
+<!--        <property name="name" value="万事达"/>-->
+<!--        <property name="age" value="16"/>-->
+<!--        <property name="cat" ref="cat"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="cat" class="com.dollarkiller.ioc.demo4.Cat">-->
+<!--        <property name="name" value="小猫"/>-->
+<!--        <property name="age" value="3"/>-->
+<!--    </bean>-->
+
+    <!-- P名称空间注入-->
+<!--    <bean id="person" class="com.dollarkiller.ioc.demo4.Person" p:age="16" p:name="哈哈" p:cat-ref="cat"/>-->
+<!--    <bean id="cat" class="com.dollarkiller.ioc.demo4.Cat" p:name="小猫" p:age="3"/>-->
+
+    <!-- SpEL空间注入-->
+<!--    <bean id="category" class="com.dollarkiller.ioc.demo4.Category">-->
+<!--        <property name="name" value="#{'服装'}"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="productInfo" class="com.dollarkiller.ioc.demo4.ProductInfo"/>-->
+
+<!--    <bean id="product" class="com.dollarkiller.ioc.demo4.Product" >-->
+<!--        <property name="name" value="#{'男装'}"/>-->
+<!--        <property name="price" value="#{productInfo.calculatePrice()}"/>-->
+<!--        <property name="category" value="#{category}"/>-->
+<!--    </bean>-->
+
+    <!-- 复杂类型属性注入注入-->
+    <bean id="collectionBean" class="com.dollarkiller.ioc.demo5.CollectionBean">
+        <!--数组类型-->
+        <property name="arrs">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+        <!--list集合属性注入-->
+        <property name="list">
+            <list>
+                <value>1111</value>
+                <value>2111</value>
+                <value>3111</value>
+                <value>4111</value>
+            </list>
+        </property>
+        <!--set集合属性注入-->
+        <property name="set">
+            <set>
+                <value>aaa</value>
+                <value>baa</value>
+                <value>caa</value>
+                <value>ada</value>
+            </set>
+        </property>
+        <!-- Map集合属性注入 -->
+        <property name="map">
+            <map>
+                <entry key="aaa" value="111"></entry>
+                <entry key="baa" value="222"></entry>
+                <entry key="caa" value="333"></entry>
+                <entry key="daa" value="444"></entry>
+            </map>
+        </property>
+        <!--Properties属性注入-->
+        <property name="properties">
+            <props>
+                <prop key="username">root</prop>
+                <prop key="password">root</prop>
+            </props>
+        </property>
+        
+    </bean>
+
 </beans>
