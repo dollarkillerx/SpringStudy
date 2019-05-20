@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f3c5f9c1-a5d5-4bac-af62-680287934623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo1/MyJdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo1/SpringDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo1/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo1/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo2/MyCglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo2/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo2/SPringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo3/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo3/SpringDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo3/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo3/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo4/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo4/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo4/SpringDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo5/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo5/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo5/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo5/SpringDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo5/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo5/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo6/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo6/MyAroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo6/MyBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo6/SpringDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo6/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/java/com/dollarkiller/demo6/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/resources/applicationContext3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springAOP/src/main/resources/applicationContext4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/MyAspectAnno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/SpringDemo1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/MyAspectXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SQL.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SpringDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ttt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="216" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SQL.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="34" column="73" lean-forward="true" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SpringDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/MyAspectXml.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/SpringDemo1Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/MyAspectAnno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#MyAspectAnno#0" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/ProductDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="docComment;class#ProductDao#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/demo1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/SpringDemo1Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/MyAspectAnno.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/MyAspectXml.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SpringDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SQL.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="698" />
+    <option name="y" value="105" />
+    <option name="width" value="1625" />
+    <option name="height" value="914" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring_aspectj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_aspectj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_aspectj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_aspectj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_aspectj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_aspectj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sapectJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_aspectj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sapectJ" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_aspectj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_aspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dollarkiller.sapectJ.demo1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringDemo2.demo1">
+    <configuration name="SpringDemo1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dollarkiller.sapectJ.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dollarkiller.sapectJ.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.dollarkiller.sapectJ.demo1.SpringDemo1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo1Test.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dollarkiller.sapectJ.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dollarkiller.sapectJ.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.dollarkiller.sapectJ.demo1.SpringDemo1Test" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo2.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dollarkiller.sapectJ.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dollarkiller.sapectJ.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.dollarkiller.sapectJ.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringDemo2.demo1" />
+        <item itemvalue="JUnit.SpringDemo1Test" />
+        <item itemvalue="JUnit.SpringDemo1Test.demo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3c5f9c1-a5d5-4bac-af62-680287934623" name="Default Changelist" comment="" />
+      <created>1556850633771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556850633771</updated>
+      <workItem from="1556850636146" duration="1930000" />
+      <workItem from="1558249829936" duration="615000" />
+      <workItem from="1558319527330" duration="7656000" />
+      <workItem from="1558338969005" duration="1074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpringDemo1Test_demo1 - 2019.05.20 at 14h 43m 17s.xml">
+      <configuration name="SpringDemo1Test.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test_demo1 - 2019.05.20 at 14h 49m 22s.xml">
+      <configuration name="SpringDemo1Test.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test_demo1 - 2019.05.20 at 14h 52m 02s.xml">
+      <configuration name="SpringDemo1Test.demo1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test - 2019.05.20 at 14h 53m 08s.xml">
+      <configuration name="SpringDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test - 2019.05.20 at 14h 53m 26s.xml">
+      <configuration name="SpringDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test - 2019.05.20 at 14h 54m 02s.xml">
+      <configuration name="SpringDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test - 2019.05.20 at 14h 55m 00s.xml">
+      <configuration name="SpringDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test - 2019.05.20 at 14h 59m 55s.xml">
+      <configuration name="SpringDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo1Test - 2019.05.20 at 15h 08m 14s.xml">
+      <configuration name="SpringDemo1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringDemo2_demo1 - 2019.05.20 at 15h 25m 26s.xml">
+      <configuration name="SpringDemo2.demo1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11275000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="698" y="105" width="1625" height="914" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1889664" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" weight="0.32974002" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32780612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Thumbnails" order="7" visible="true" weight="0.32893288" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32908162" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32974002" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_aspectj$SpringDemo2_demo1.ic" NAME="SpringDemo2.demo1 Coverage Results" MODIFIED="1558337125066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dollarkiller.sapectJ.demo2.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/demo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/CustomerDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SpringDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/MyAspectXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/SpringDemo1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/MyAspectAnno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#MyAspectAnno#0" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo1/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="docComment;class#ProductDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dollarkiller/sapectJ/demo2/SQL.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="34" column="73" lean-forward="true" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

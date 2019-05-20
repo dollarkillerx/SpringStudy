@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--XML配置方式完成AOP开发-->
+
+    <!--配置目标类-->
+    <bean id="customerDao" class="com.dollarkiller.sapectJ.demo2.CustomerDaoImpl" />
+
+    <!--配置切面类-->
+    <bean id="myAspectXml" class="com.dollarkiller.sapectJ.demo2.MyAspectXml"/>
+
+    <!--aop相关配置-->
+    <aop:config>
+        <!--配置切入点-->
+        <aop:pointcut id="pointcu1" expression="execution(* com.dollarkiller.sapectJ.demo2.CustomerDaoImpl.save(..))"/>
+        
+        <!--配置AOP切面-->
+        <aop:aspect ref="myAspectXml">
+            <!--配置前置通知-->
+            <aop:before method="before" pointcut-ref="pointcu1"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

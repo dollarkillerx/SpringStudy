@@ -68,7 +68,7 @@ Spring小白入门
 #### BeanPostProcessor的作用
 - 增类中某一个方法
   ```
-      public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+    public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         System.out.println("第五步初始化前");
         return bean;
     }
@@ -283,5 +283,5 @@ public class Bean1 {
   - 配置文件添加context:annotation-config标签
   ```
     <!--单独使用属性注入的注解-->
-    <context:annotation-config></context:annotation-config>
+    <context:annotation-config/>
   ```
